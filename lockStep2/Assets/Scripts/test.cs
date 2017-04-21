@@ -18,11 +18,15 @@ public class test : MonoBehaviour {
 			msg["uid"] = "hehe";
 			pc.request("connector.entryHandler.entry", msg, OnQuery);
 		});
+
+		pc.on("onChat", (data) => {
+			OnChat(data);
+		});
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		string route = "connector.entryHandler.move";
+		string route = "connector.entryHandler.send";
 		if (Input.GetKeyDown (KeyCode.UpArrow))
 		{
 			JsonObject msg = new JsonObject();
@@ -88,6 +92,11 @@ public class test : MonoBehaviour {
 			state = 4;
 		}
 		//print (result["msg"]);
+		//print (result["direction"]);
+	}
+
+	void OnChat(JsonObject result){
+		print (result);
 		//print (result["direction"]);
 	}
 }

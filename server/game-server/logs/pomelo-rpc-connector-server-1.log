@@ -1,0 +1,3 @@
+[2017-04-21 00:50:15.843] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] unknown server: 1
+[2017-04-21 00:50:15.844] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:1
+[2017-04-21 00:50:15.844] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: 1, msg: [Circular], error code: 2
