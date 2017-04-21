@@ -58,22 +58,22 @@ public class test : MonoBehaviour {
 			pc.request(route, msg, OnQuery);
 		}
 
-		while (upCount) 
+		while (upCount>0) 
 		{
 			player.transform.position += new Vector3 (0, 1, 0);
 			upCount--;
 		}
-		while (downCount)
+		while (downCount>0)
 		{
 			player.transform.position += new Vector3 (0, -1, 0);
 			downCount--;
 		}
-		while (leftCount)
+		while (leftCount>0)
 		{
 			player.transform.position += new Vector3 (-1, 0, 0);
 			leftCount--;
 		}
-		while (rightCount)
+		while (rightCount>0)
 		{
 			player.transform.position += new Vector3 (1, 0, 0);
 			rightCount--;
