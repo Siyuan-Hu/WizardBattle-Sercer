@@ -8,9 +8,15 @@ public class test : MonoBehaviour {
 	public GameObject player;
 	private int state=0;
 
+	private int count = 0;
+	private int upCount=0;
+	private int downCount=0;
+	private int leftCount=0;
+	private int rightCount=0;
+
 	// Use this for initialization
 	void Start () {
-		string host = "128.237.195.212";
+		string host = "128.237.211.68";
 		int port = 3010;
 		pc = new PomeloClient(host, port);
 		pc.connect(null, (data)=>{
@@ -52,25 +58,25 @@ public class test : MonoBehaviour {
 			pc.request(route, msg, OnQuery);
 		}
 
-		if (state == 1) 
+		while (upCount) 
 		{
 			player.transform.position += new Vector3 (0, 1, 0);
-			state = 0;
+			upCount--;
 		}
-		if (state == 2) 
+		while (downCount)
 		{
 			player.transform.position += new Vector3 (0, -1, 0);
-			state = 0;
+			downCount--;
 		}
-		if (state == 3) 
+		while (leftCount)
 		{
 			player.transform.position += new Vector3 (-1, 0, 0);
-			state = 0;
+			leftCount--;
 		}
-		if (state == 4) 
+		while (rightCount)
 		{
 			player.transform.position += new Vector3 (1, 0, 0);
-			state = 0;
+			rightCount--;
 		}
 	}
 
@@ -80,23 +86,25 @@ public class test : MonoBehaviour {
 	}
 
 	void OnChat(JsonObject result){
+		count++;
+		//print (count);
 		if (result ["msg"].ToString() == "up") 
 		{
-			state = 1;
+			upCount++;
 		}
 		if (result ["msg"].ToString() == "down") 
 		{
-			state = 2;
+			downCount++;
 		}
 		if (result ["msg"].ToString() == "left") 
 		{
-			state = 3;
+			leftCount++;
 		}
 		if (result ["msg"].ToString() == "right") 
 		{
-			state = 4;
+			rightCount++;
 		}
-		print (result);
+		//print (result);
 		//print (result["direction"]);
 	}
 }
