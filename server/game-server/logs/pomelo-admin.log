@@ -1,0 +1,51 @@
+[2017-04-20 00:57:01.333] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 00:57:01.352] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 00:57:02.194] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:06:33.143] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:06:33.159] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:06:34.087] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:25:36.151] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:25:36.171] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:25:37.054] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:30:58.369] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:30:58.396] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:30:59.286] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:40:53.414] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:40:53.435] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:40:54.036] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "move", "127.0.0.1", 3005
+[2017-04-20 20:40:54.075] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "connector-server-1" "move" register master failed
+[2017-04-20 20:40:54.076] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2017-04-20 20:40:55.082] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2017-04-20 20:40:55.098] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"1":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"/Users/kter/Documents/WizardBattle/web socket/server/game-server/app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3160,"serverType":"move"}}}}}
+[2017-04-20 20:40:55.107] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:1
+[2017-04-20 20:41:31.500] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:41:31.516] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:41:32.084] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "move", "127.0.0.1", 3005
+[2017-04-20 20:41:32.115] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "connector-server-1" "move" register master failed
+[2017-04-20 20:41:32.115] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2017-04-20 20:41:33.121] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2017-04-20 20:41:33.136] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"1":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"/Users/kter/Documents/WizardBattle/web socket/server/game-server/app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":6050,"serverType":"move"}}}}}
+[2017-04-20 20:41:33.145] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:1
+[2017-04-20 20:42:10.514] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:42:10.529] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:42:11.120] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "move", "127.0.0.1", 3005
+[2017-04-20 20:42:11.158] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "connector-server-1" "move" register master failed
+[2017-04-20 20:42:11.160] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2017-04-20 20:42:12.165] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2017-04-20 20:42:12.182] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"1":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"/Users/kter/Documents/WizardBattle/web socket/server/game-server/app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":6050,"serverType":"move"}}}}}
+[2017-04-20 20:42:12.193] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:1
+[2017-04-20 20:42:41.721] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:42:41.736] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:42:42.557] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:45:31.339] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:45:31.360] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:45:32.005] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "move", "127.0.0.1", 3005
+[2017-04-20 20:45:32.030] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-04-20 20:45:32.063] [ERROR] pomelo-admin - [31m[MonitorAgent] [39mserver "move-server-1" "move" register master failed
+[2017-04-20 20:45:32.063] [ERROR] pomelo-admin - [31m[MqttClient] [39mmqtt socket is disconnect, remote server host: 127.0.0.1, port: 3005
+[2017-04-20 20:45:33.069] [INFO] pomelo-admin - [32m[MqttClient] [39mreconnect delay 1 s
+[2017-04-20 20:45:33.082] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mrepush qos message {"2":{"moduleId":"__monitorwatcher__","msg":{"action":"replaceServer","servers":{"connector-server-1":{"main":"/Users/kter/Documents/WizardBattle/web socket/server/game-server/app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"connector","pid":22485},"move-server-1":{"main":"/Users/kter/Documents/WizardBattle/web socket/server/game-server/app","env":"development","id":"move-server-1","host":"127.0.0.1","port":3160,"clientHost":"127.0.0.1","clientPort":3020,"frontend":"true","serverType":"move"}}}}}
+[2017-04-20 20:45:33.100] [WARN] pomelo-admin - [33m[MasterSocket] [39munknown resp id:2
+[2017-04-20 20:48:51.661] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-04-20 20:48:51.678] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-04-20 20:48:52.534] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005

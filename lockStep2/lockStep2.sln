@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{64118EA9-1292-8054-1620-C643391B0278}") = "lockStep2", "Assembly-CSharp.csproj", "{EDB41045-92ED-B791-1302-0461B507AC13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB41045-92ED-B791-1302-0461B507AC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB41045-92ED-B791-1302-0461B507AC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB41045-92ED-B791-1302-0461B507AC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB41045-92ED-B791-1302-0461B507AC13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
