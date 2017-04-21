@@ -75,6 +75,11 @@ public class test : MonoBehaviour {
 	}
 
 	void OnQuery(JsonObject result){
+		//print (result["msg"]);
+		//print (result["direction"]);
+	}
+
+	void OnChat(JsonObject result){
 		if (result ["msg"].ToString() == "up") 
 		{
 			state = 1;
@@ -91,11 +96,6 @@ public class test : MonoBehaviour {
 		{
 			state = 4;
 		}
-		//print (result["msg"]);
-		//print (result["direction"]);
-	}
-
-	void OnChat(JsonObject result){
 		print (result);
 		//print (result["direction"]);
 	}
